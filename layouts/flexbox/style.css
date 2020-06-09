@@ -1,0 +1,21 @@
+.Rouge {
+    background-color:red;
+}
+.Verte{
+    background-color: green;
+}
+.rose{
+    background-color: deeppink;
+}
+.jaune{
+    background-color: yellow;
+}
+.bleu{
+    background-color: dodgerblue;
+}
+.orange{
+    background-color: orange;
+}
+.flexbox{
+    display: flex;
+}
