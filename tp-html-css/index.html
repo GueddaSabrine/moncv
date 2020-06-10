@@ -1,14 +1,15 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"/>
     <title>Formation HTML5 &amp; CSS3</title>
-    <link rel="stylesheet" href="css">
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-<header id="header">
-    <h1>HTML5 &amp; CSS3</h1>
-    <h2>Nouveautés</h2>
+
+<header id="header" class="bandeau">
+    <h1>html5 &amp; css3</h1>
+    <h2>nouveautés</h2>
     <nav>
         <a href="#">Accueil</a>
         <a href="#">Contact</a>
@@ -16,7 +17,7 @@
     </nav>
 </header>
 
-<div id="colonneGauche">
+<div id="colGauche">
     <nav class="menu">
         <a href="#fable">Cigale et Fourmi</a>
         <a href="#illustration">Illustration</a>
@@ -32,10 +33,10 @@
     </aside>
 </div>
 
-<section id="colonneContenue">
+<section id="contenu">
     <article>
-        <h2 id="fable">La Cigale et la Fourmi</h2>
-        <blockquote>
+        <h2 id="fable">la cigale et la Fourmi</h2>
+        <blockquote class="fable">
             La Cigale, ayant chanté tout l'été, se trouva fort dépourvue quand la bise fut venue: pas un seul petit
             morceau
             de mouche ou de vermisseau. Elle alla crier famine chez la Fourmi sa voisine, la priant de lui prêter
@@ -50,13 +51,18 @@
             <br/>- Nuit et jour à tout venant, je chantais, ne vous déplaise.
             <br/>- Vous chantiez ? j'en suis fort aise. Et bien, dansez maintenant.
         </blockquote>
-        <cite>Jean de la Fontaine, Fable de la Fontaines, <ins>1668, <del>2E50</del></ins>(-50%, 2,50E</cite>
+        <p>
+            <cite>Jean de La Fontaine, Fables de La Fontaine, 1668.</cite>
+            <ins>2,5 &euro;</ins>
+            (<strong>-50%</strong>,
+            <del>5,00 &euro;</del>
+            )
+        </p>
     </article>
     <article>
         <h2 id="illustration">Illustration</h2>
-        <a href="img/img/cigale-fourmi.jpg">Image</a>
         <figure>
-            <img src=""/>
+            <img src="img/cigale-fourmi.jpg" alt="Illustration de la fable La Cigale et la Fourmi"/>
             <figcaption>Illustration de la fable La Cigale et la Fourmi</figcaption>
         </figure>
     </article>
@@ -67,7 +73,7 @@
                 <a href="doc/fable.pdf" download>Format PDF</a>
             </li>
             <li>
-                <a href="doc/fable.docx" download>Format WORDS</a>
+                <a href="doc/fable.docx" download>Format Word</a>
             </li>
         </ul>
     </article>
@@ -87,7 +93,7 @@
     </article>
     <article>
         <h2 id="population">Population</h2>
-        <table>
+        <table id="table-population" class="mon-tableau">
             <caption>Population des plus grandes villes de France</caption>
             <thead>
             <tr>
@@ -158,7 +164,7 @@
     </article>
     <article>
         <h2 id="inscription">Inscription</h2>
-        <form method="post" >
+        <form method="post">
             <label for="nom">Nom *</label>
             <input type="text" id="nom" name="nom" required/>
             <br/>
@@ -201,10 +207,10 @@
         </form>
     </article>
 </section>
-<div id="pied">
 
+<footer id="pied">
     <address>7 bis Avenue Jacques Cartier, Saint Herblain</address>
-</div>
+</footer>
 
 </body>
 </html>
