@@ -1,0 +1,37 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "CONTAINER";
+}
+
+.CONTAINER {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "NOM";
+    grid-area: CONTAINER;
+}
+
+.NOM {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 1px 1px;
+    grid-template-areas: "CONTACT DEV-WEB" "COMPETENCE FORMATION" "COMPETENCE EXP-PRO" "interet interet";
+    grid-area: NOM;
+}
+
+.CONTACT { grid-area: CONTACT; }
+
+.DEV-WEB { grid-area: DEV-WEB; }
+
+.COMPETENCE { grid-area: COMPETENCE; }
+
+.FORMATION { grid-area: FORMATION; }
+
+.EXP-PRO { grid-area: EXP-PRO; }
+
+.interet { grid-area: interet; }
