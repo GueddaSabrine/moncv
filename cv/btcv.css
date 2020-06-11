@@ -1,3 +1,6 @@
+*{
+    font-family: Arial, Scheherazade;
+}
 .grid-container {
     display: grid;
     grid-template-columns: 1fr;
