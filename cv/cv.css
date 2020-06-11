@@ -9,9 +9,8 @@ body{
 header{
     font-family: Scheherazade, sans-serif;
     background-color: rgba(229, 62, 146, 0.96);
-    text-align: center;
-    font-size: 55px;
-    padding: 20px;
+    text-align: left;
+    font-size: 15px;
 }
 
 .Profil {
